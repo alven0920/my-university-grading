@@ -1,0 +1,5 @@
+{
+    "watch": ["*.js", "*.ts", "*.graphql", "*.json", ".nodemon", ".env", "*.key", "*.pem", "*.html"],
+    "ignore": ["node_modules"],
+    "ext": "js, ts, graphql, json, nodemon, env, key, pem, html"
+}
