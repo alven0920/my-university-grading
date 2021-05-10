@@ -1,7 +1,7 @@
 # MY UNIVERSITY PET PROJECT - CLEAN ARCHITECTURE-INSPIRED
-## Curriculum Program
+## Student Curriculum and Grades
 
-This is a microservice boilerplate for "My University" curriculum program
+This is a microservice boilerplate for "My University" Grading
 
 ### Pre-requisite
 
