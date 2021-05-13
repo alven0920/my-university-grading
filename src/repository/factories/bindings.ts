@@ -1,6 +1,7 @@
 import { CurriculumRepository } from '../CurriculumRepository';
 import { CurriculumYearRepository } from '../CurriculumYearRepository';
 import { SemesterRepository } from '../SemesterRepository';
+import { StudentGradesRepository } from '../StudentGradesRepository';
 import { SubjectRepository } from '../SubjectRepository';
 
 export const curriculumBinding: Record<string, typeof CurriculumRepository | null> = {
@@ -17,4 +18,8 @@ export const semesterBindings: Record<string, typeof SemesterRepository | null> 
 
 export const subjectBindings: Record<string, typeof SubjectRepository | null> = {
   default: null
-}
+};
+
+export const studentGradesBindings: Record<string, typeof StudentGradesRepository | null> = {
+  default: null
+};
